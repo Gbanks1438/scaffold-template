@@ -45,12 +45,20 @@ Walkthrough:
 
 Project workflow & goals:
 
-|* Work on the backend database formatting and relationships
-|* db:create, db:migrate, & db:seed
-|* Use Postgres as the object-relational database manager
-|* Set up the Models, Views, & Controllers
-|* Set up config/routes.rb
-|* Edit config/database.yml as needed
-|* Change favicon.ico if desired
-|* Move on to the frontend and work on a landing page
-|* Build out a functional website or application using React, HTML, CSS, and Javascript!
+Work on the backend database formatting and relationships
+
+db:create, db:migrate, & db:seed
+
+Use Postgres as the object-relational database manager
+
+Set up the Models, Views, & Controllers
+
+Set up config/routes.rb
+
+Edit config/database.yml as needed
+
+Change favicon.ico if desired
+
+Move on to the frontend and work on a landing page
+
+Build out a functional website or application using React, HTML, CSS, and Javascript!
