@@ -8,7 +8,9 @@ Setting up a React/RoR Monorepo
     $postgres --version
 
 https://reactjs.org/docs/create-a-new-react-app.html
+
 https://docs.bitnami.com/aws/infrastructure/ruby/get-started/create-rails-app/
+
 https://guides.rubyonrails.org/getting_started.html
 
 
@@ -21,18 +23,20 @@ https://guides.rubyonrails.org/getting_started.html
 - [7] in VSC, add an “images” folder inside the src folder
 - [8] confirm in config/database.yml and Ruby Gemfiles that all dependencies are installed and enabled (*bcrypt, spring, Rspec, etc)
 - [9] $cd into the React folder
-- [10] $npm start   --->to start the React app on local host port 3000
-- [11] in VSC, edit the React welcome message by navigating to src/App.js
-- [12] open a new Terminal window
-- [13] $cd back into the main project folder, then into the Rails folder
-- [14] $bundle exec rails db:prepare   --->to create the application database and initialize the schema
-- [15] $rails generate controller Welcome index   --->to create a welcome page
-- [16] edit the config/routes.rb file to add the following line--->   root 'welcome#index'
-- [17] change ports in the config/puma file to 3001
-- [18] $bundle exec rails server   --->to start the rails app on local host port 3001
-- [19] in VSC, edit the Rails welcome message by navigating to app/views/welcome/index.html.erb
-- [20] open a third Terminal window and navigate to the main project folder. Use it to enter CLI commands in the appropriate subdirectories as needed during development
-- [21] make a new GitHub repository for your project
+- [10] $ls -la   --->to check for git files [$rm -rf   --->to clear them if present*]
+- [11] $npm start   --->to start the React app on local host port 3000
+- [12] in VSC, edit the React welcome message by navigating to src/App.js
+- [13] open a new Terminal window
+- [14] $cd back into the main project folder, then into the Rails folder
+- [15] $ls -la   --->to check for git files [$rm -rf   --->to clear them if present*]
+- [16] $bundle exec rails db:prepare   --->to create the application database and initialize the schema
+- [17] $rails generate controller Welcome index   --->to create a welcome page
+- [18] edit the config/routes.rb file to add the following line--->   root 'welcome#index'
+- [19] change ports in the config/puma file to 3001
+- [20] $bundle exec rails server   --->to start the rails app on local host port 3001
+- [21] in VSC, edit the Rails welcome message by navigating to app/views/welcome/index.html.erb
+- [22] open a third Terminal window and navigate to the main project folder. Use it to enter CLI commands in the appropriate subdirectories as needed during development
+- [23] make a new GitHub repository for your project
 
 Project workflow & goals:
     Work on the backend database formatting and relationships first
@@ -43,4 +47,4 @@ Project workflow & goals:
     Edit config/database.yml as needed
     Change favicon.ico if desired
     Move on to the frontend and work on a landing page
-    Build out a functional website or application using React, HTML, CSS, and Javascript!# scaffold-template
+    Build out a functional website or application using React, HTML, CSS, and Javascript!
