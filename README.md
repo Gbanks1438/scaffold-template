@@ -5,6 +5,9 @@ Setting up a React/RoR Monorepo
     $ruby --version
     $rails --version
     $postgres --version
+    
+
+Additional Resources:
 
 https://reactjs.org/docs/create-a-new-react-app.html
 
