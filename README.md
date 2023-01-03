@@ -7,7 +7,7 @@ $ruby --version
 
 $rails --version
 
-postgres --version
+$postgres --version
  
  ---  
 
