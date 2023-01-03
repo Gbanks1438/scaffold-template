@@ -32,18 +32,7 @@ https://guides.rubyonrails.org/getting_started.html
 - [18] $bundle exec rails server   --->to start the rails app on local host port 3001
 - [19] in VSC, edit the Rails welcome message by navigating to app/views/welcome/index.html.erb
 - [20] open a third Terminal window and navigate to the main project folder. Use it to enter CLI commands in the appropriate subdirectories as needed during development
-- [21] make a new GitHub repository with the steps below to save and share your work
-
-To create a new repository on the command line:
-	$echo "# example-name”>> README.md
-	$git init
-	$git add README.md
-	$git commit -m "first commit"
-$git branch -M main
-	$git remote add origin git@github.com:user-name/example-name.git
-	$git push -u origin main
-
-
+- [21] make a new GitHub repository for your project
 
 Project workflow & goals:
     Work on the backend database formatting and relationships first
@@ -54,4 +43,4 @@ Project workflow & goals:
     Edit config/database.yml as needed
     Change favicon.ico if desired
     Move on to the frontend and work on a landing page
-    Build out a functional website or application using React, HTML, CSS, and Javascript!
+    Build out a functional website or application using React, HTML, CSS, and Javascript!# scaffold-template
