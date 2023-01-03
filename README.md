@@ -2,10 +2,14 @@
 Setting up a React/RoR Monorepo
 
 *Run tests below to confirm versions before proceeding:
-    $ruby --version
-    $rails --version
-    $postgres --version
-    
+
+$ruby --version
+
+$rails --version
+
+postgres --version
+ 
+ ---  
 
 Additional Resources:
 
